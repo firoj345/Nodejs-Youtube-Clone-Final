@@ -1,12 +1,12 @@
 {
-  "name": "final-backend",
+  "name": "final-youtube-clone-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "a nodejs backend youtube clone project",
+  "type":"module",
   "license": "ISC",
-  "author": "",
-  "type": "commonjs",
+  "author": "FirojBabu",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   }
 }
